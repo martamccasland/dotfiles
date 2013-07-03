@@ -4,8 +4,8 @@
 [hub]
         protocol = https
 [user]
-        name = Randall A. Gordon
-        email = randall@randallagordon.com
+        name = Marta McCasland
+        email = marta@martamccasland.com
 [alias]
         co = checkout
         ci = commit
