@@ -48,3 +48,13 @@ zle -N newtab
 # bindkey '^?' backward-delete-char
 bindkey -v
 bindkey -M viins 'jj' vi-cmd-mode
+
+# Bind ZZ to exit the shell a la Vim write & exit
+function zshexit {
+  exit
+}
+zle -N zshexit
+
+bindkey 'ZZ' zshexit
+
+# TODO: Make setup match Vim more closely, especially work on making del/backspace and home/end work properly
