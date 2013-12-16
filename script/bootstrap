@@ -129,5 +129,10 @@ then
   fi
 fi
 
+# Powerline Stuff
+ln -s ~/.dotfiles/powerline-config ~/.config/powerline
+# Byobu
+ln -s ~/.dotfiles/byobu ~/.byobu
+
 echo ''
 echo '  All installed!'
